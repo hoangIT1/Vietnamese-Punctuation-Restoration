@@ -50,7 +50,7 @@ To infere: Change the path to pretrained model and run command
 ```
 from infere import pipeline
 
-text = 'Tôi là Khang tôi là sinh viên trường Bách Khoa'
+text = 'Tôi là Hoàng tôi là sinh viên trường Bách Khoa'
 
 res = pipeline(text)
 
