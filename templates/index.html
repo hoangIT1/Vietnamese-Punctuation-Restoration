@@ -1,0 +1,17 @@
+{% extends "base.html" %} {% block content %}
+
+<h2>Punctuation Restoration</h2>
+
+<div>
+    <form id="up-text" method="POST", enctype="multipart/form-data">
+        <label>
+            Vietnamese sentence
+        </label>
+        <input type="text" name="inputtext" class="form-control">
+        <input type="submit" class="btn btn-primary"> 
+    </form>
+
+   
+</div>
+
+{% endblock %}
